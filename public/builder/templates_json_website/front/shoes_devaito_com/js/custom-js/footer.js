@@ -1,0 +1,1 @@
+function loadExternalScript(t,c){var r=document.createElement("script");r.src=t,r.type="text/javascript",r.async=!0,r.onerror=function(){console.error("\xc9chec du chargement du script :",t)},r.onload=c,document.head.appendChild(r)}loadExternalScript("https://api.devaito.com/utils/section-js/footers.js",function(){console.log("Script charg\xe9 avec succ\xe8s !")});
